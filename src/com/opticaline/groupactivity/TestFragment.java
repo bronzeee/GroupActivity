@@ -13,15 +13,6 @@ public class TestFragment extends Fragment {
     private String hello;// = "hello android";
     private String defaultHello = "default value";
 
-    static TestFragment newInstance(String s) {
-        TestFragment newFragment = new TestFragment();
-        Bundle bundle = new Bundle();
-        bundle.putString("hello", s);
-        newFragment.setArguments(bundle);
-        return newFragment;
-
-    }
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
