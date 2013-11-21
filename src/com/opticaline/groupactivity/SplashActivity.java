@@ -24,7 +24,4 @@ public class SplashActivity extends Activity {
             }
         }, SPLASH_DELAY_MILLIS);
     }
-
-    private void goHome() {
-    }
 }
