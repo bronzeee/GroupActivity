@@ -21,9 +21,7 @@ public class GameFragment extends Fragment {
         View view = inflater.inflate(R.layout.game_layout, container, false);
         GameView gameView = (GameView) view.findViewById(R.id.gameView);
         gameView.drawRect(3, 3, R.color.blue);
-        gameView.postInvalidate();
         gameView.drawRect(3, 4, R.color.blue);
-        gameView.postInvalidate();
         gameView.drawRect(3, 5, R.color.blue);
         gameView.postInvalidate();
         return view;
