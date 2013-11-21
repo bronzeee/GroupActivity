@@ -57,7 +57,7 @@ public class GameView extends View {
     public boolean drawRect(int row, int column, int color) {
         Paint paint = new Paint();
         paint.setStyle(Paint.Style.FILL);
-        paint.setColor(color);
+        paint.setColor(getResources().getColor(color));
         return drawRect(row, column, paint);
     }
 
