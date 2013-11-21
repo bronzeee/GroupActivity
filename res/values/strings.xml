@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weird boxes</string>
+    <string name="trend">Trend</string>
+    <string name="contact">Contacts</string>
+    <string name="tab_3">Friends</string>
+    <string name="tab_4">Conversation</string>
+    <string name="chatboxes">&#xf11c;</string>
+    <string name="person">&#xf1c2;</string>
+    <string name="briefcase">&#xf26c;</string>
+    <string name="settings">&#xf2ad;</string>
+</resources>
