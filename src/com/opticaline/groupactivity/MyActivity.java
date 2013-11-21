@@ -29,19 +29,19 @@ public class MyActivity extends FragmentActivity {
     private ArrayList<LinearLayout> textViews = new ArrayList<LinearLayout>();
     private ArrayList<Integer> positions = new ArrayList<Integer>();
     private Class<TestFragment>[] tabParams = new Class[]{
-            TestFragment.class,
+            GameFragment.class,
             ContactFragment.class,
             TestFragment.class,
             TestFragment.class
     };
     private int[] itemNames = new int[]{
-            R.string.trend,
+            R.string.game,
             R.string.contact,
             R.string.tab_3,
             R.string.tab_4
     };
     private int[] icons = new int[]{
-            R.string.chatboxes,
+            R.string.game_controller,
             R.string.person,
             R.string.briefcase,
             R.string.settings
